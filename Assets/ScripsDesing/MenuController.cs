@@ -8,9 +8,14 @@ public class MenuController : MonoBehaviour
     public GameObject mainMenuPanel;
     public GameObject settingsPanel;
 
+    void Start()
+    {
+        mainMenuPanel.SetActive(true);
+        settingsPanel.SetActive(false);
+    }
     public void PlayGame()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
     public void Back()
     {
