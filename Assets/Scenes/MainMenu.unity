@@ -266,7 +266,7 @@ GameObject:
   - component: {fileID: 278451387}
   - component: {fileID: 278451388}
   m_Layer: 0
-  m_Name: MenuManger
+  m_Name: Main Menu Manger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2074,6 +2074,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 657567332}
   - {fileID: 278451387}
+  - {fileID: 1721580725}
   - {fileID: 1263599883}
   - {fileID: 886106982}
-  - {fileID: 1721580725}
