@@ -79,7 +79,7 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.enabled = true;
             hide = false;
-            gameObject.layer = playermask;
+            gameObject.layer = LayerMask.GetMask("TransparentFX");
             colider.enabled = true;
             Debug.Log(gameObject.layer);
         }

@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5102918862022453726}
-  m_Layer: 3
+  m_Layer: 2
   m_Name: Detector
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   - component: {fileID: 2729371275688807690}
   - component: {fileID: 1415242274551177232}
   - component: {fileID: 1556186142803824361}
-  m_Layer: 3
+  m_Layer: 2
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +141,9 @@ MonoBehaviour:
     m_Bits: 1024
   playermask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 1024
+  player: {fileID: 0}
+  colider: {fileID: 0}
 --- !u!50 &1415242274551177232
 Rigidbody2D:
   serializedVersion: 4
