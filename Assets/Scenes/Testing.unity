@@ -284,6 +284,7 @@ GameObject:
   - component: {fileID: 1856353331}
   - component: {fileID: 1856353332}
   - component: {fileID: 1856353333}
+  - component: {fileID: 1856353334}
   m_Layer: 2
   m_Name: Carry_Idle_Down_Frame_0
   m_TagString: Untagged
@@ -444,15 +445,24 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerDetector: {fileID: 78392711}
-  radius: 1.76
-  velocity: 200
-  hideout: {fileID: 0}
-  hide: 0
   layerMask:
     serializedVersion: 2
     m_Bits: 1024
   player: {fileID: 0}
-  colider: {fileID: 0}
+  radius: 1.76
+  velocity: 200
+--- !u!210 &1856353334
+SortingGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1856353327}
+  m_Enabled: 1
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 10
+  m_SortAtRoot: 0
 --- !u!1001 &177481224371527777
 PrefabInstance:
   m_ObjectHideFlags: 0

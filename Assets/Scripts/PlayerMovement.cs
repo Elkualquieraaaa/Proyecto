@@ -5,19 +5,19 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    Rigidbody2D Rigidbody;
-    SpriteRenderer spriteRenderer;
     [SerializeField] Transform PlayerDetector;
-    float Hmovement;
-    float Vmovement;
-    [SerializeField] float radius;
-    [SerializeField] float velocity;
-    float normalvelocity;
-    [SerializeField] Collider2D hideout;
-    [SerializeField]bool hide;
     [SerializeField] LayerMask layerMask;
     [SerializeField] GameObject player;
-    [SerializeField] Collider2D colider;
+    [SerializeField] float radius;
+    [SerializeField] float velocity;
+    Rigidbody2D Rigidbody;
+    SpriteRenderer spriteRenderer;
+    float Hmovement;
+    float Vmovement;
+    float normalvelocity;
+    Collider2D colider;
+    Collider2D hideout;
+    bool hide;
     // Start is called before the first frame update
 
     void Start()
@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hideout = Physics2D.OverlapCircle(PlayerDetector.position, radius,layerMask);
+        hideout = Physics2D.OverlapCircle(PlayerDetector.position, radius, layerMask);
 
         Hmovement = (Input.GetAxis("Horizontal") * velocity);
         Vmovement = (Input.GetAxis("Vertical") * velocity);
@@ -68,7 +68,7 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.enabled = false;
             hide = true;
-            Rigidbody.velocity = new Vector2 (0, 0);
+            Rigidbody.velocity = new Vector2(0, 0);
             gameObject.layer = LayerMask.GetMask("default");
             colider.enabled = false;
             Debug.Log(gameObject.layer);
