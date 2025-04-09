@@ -222,6 +222,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2729371275688807690, guid: 56658692d8dfb7b4a9f5c1950118095a, type: 3}
+      propertyPath: playermask.m_Bits
+      value: 1024
+      objectReference: {fileID: 0}
     - target: {fileID: 3217580147018083717, guid: 56658692d8dfb7b4a9f5c1950118095a, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.01
