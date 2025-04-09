@@ -10,6 +10,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] GameObject player;
     [SerializeField] float radius;
     [SerializeField] float velocity;
+    [SerializeField] float velocitY;
     Rigidbody2D Rigidbody;
     SpriteRenderer spriteRenderer;
     float Hmovement;
@@ -42,6 +43,8 @@ public class PlayerMovement : MonoBehaviour
         }
         Run();
         Hide();
+
+        velocitY = Rigidbody.velocity.y;
     }
 
     public void Move()
