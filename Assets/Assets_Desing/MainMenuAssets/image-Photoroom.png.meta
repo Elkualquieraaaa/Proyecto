@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: abefe6d758ca88a44955955698c5fea2
+guid: c7739d708f8bed2478e88ea0757900b6
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -136,76 +136,97 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Idle_Down-Sheet_0
+      name: image-Photoroom_0
       rect:
         serializedVersion: 2
-        x: 24
-        y: 16
-        width: 16
-        height: 30
+        x: 96
+        y: 190
+        width: 233
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5dc5d3f0dcce6904e96ee160039685c8
-      internalID: 1061550330
+      spriteID: f9c05ffc489bfd74da4d11944d505e9a
+      internalID: -941862246
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_Down-Sheet_1
+      name: image-Photoroom_1
       rect:
         serializedVersion: 2
-        x: 88
-        y: 16
-        width: 16
-        height: 29
+        x: 96
+        y: 279
+        width: 233
+        height: 86
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42b92eb16aceac0428cd67ba915746bd
-      internalID: 569106609
+      spriteID: 030c9fb19a44dcc42a6cf1fa85f944c9
+      internalID: 1217471267
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_Down-Sheet_2
+      name: image-Photoroom_2
       rect:
         serializedVersion: 2
-        x: 152
-        y: 16
-        width: 16
-        height: 28
+        x: 97
+        y: 100
+        width: 232
+        height: 85
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e5da12fae90f4f045b95eca7d7205255
-      internalID: -819259756
+      spriteID: 657f50bf6a5b0814a8fe18c669757ac4
+      internalID: -999061892
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Idle_Down-Sheet_3
+      name: image-Photoroom_3
       rect:
         serializedVersion: 2
-        x: 216
-        y: 16
-        width: 16
-        height: 29
+        x: 564
+        y: 96
+        width: 232
+        height: 93
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cf16d20d6ab0094285a298c9460b5e9
+      internalID: 1096388732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-Photoroom_4
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 278
+        width: 83
+        height: 88
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,8 +234,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 12cf42ba909c9d54aa927bf34a0c1aa4
-      internalID: 614412226
+      spriteID: eec05c7360462f8489b7ea9bcd9d657c
+      internalID: 362206324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-Photoroom_5
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 278
+        width: 83
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d8cb25d611f20c4a9968c529b9deb02
+      internalID: 1248412925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-Photoroom_6
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 189
+        width: 83
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed67a6eeb58a21d4e905fa53f6dd1832
+      internalID: 354297044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: image-Photoroom_7
+      rect:
+        serializedVersion: 2
+        x: 1017
+        y: 278
+        width: 87
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79336d2d71ae83c4f9ce7fde912228cf
+      internalID: 646554094
       vertices: []
       indices: 
       edges: []
@@ -230,10 +314,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Idle_Down-Sheet_0: 1061550330
-      Idle_Down-Sheet_1: 569106609
-      Idle_Down-Sheet_2: -819259756
-      Idle_Down-Sheet_3: 614412226
+      image-Photoroom_0: -941862246
+      image-Photoroom_1: 1217471267
+      image-Photoroom_2: -999061892
+      image-Photoroom_3: 1096388732
+      image-Photoroom_4: 362206324
+      image-Photoroom_5: 1248412925
+      image-Photoroom_6: 354297044
+      image-Photoroom_7: 646554094
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
