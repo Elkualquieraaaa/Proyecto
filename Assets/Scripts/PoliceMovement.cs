@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.AI;
 using UnityEngine.SceneManagement;
 
 public class PenduloEnemigo : MonoBehaviour
 {
     [SerializeField] Transform target1, target2;
-    private Transform currentTarget;
+    [SerializeField] private Transform currentTarget;
     public float Speed;
 
     public float detectionRadius;
@@ -15,39 +16,31 @@ public class PenduloEnemigo : MonoBehaviour
 
     public string gameOverSceneName = "MainMenu";
 
+    NavMeshAgent agent;
     void Start()
     {
         currentTarget = target1;
+        agent = GetComponent<NavMeshAgent>();
+          agent.updateRotation = false;
+        agent.updateUpAxis = false;
     }
 
     void Update()
-    {
-        // Detectar al jugador usando física 2D
-        Collider2D[] hits = Physics2D.OverlapCircleAll(transform.position, detectionRadius, playerLayer);
-
-        if (hits.Length > 0)
-        {
-            // Si hay colisión, apuntar al jugador
-            player = hits[0].transform;
-        }
-        else
-        {
-            // Si no hay colisión, deshabilitar seguimiento al jugador
-            player = null;
-        }
-
+    {   
+      
         // Movimiento del enemigo
-        if (player != null)
+        if (PlayerIsNear())
         {
             // Seguir al jugador si está detectado
-            transform.position = Vector3.MoveTowards(transform.position, player.position, Speed * Time.deltaTime);
+            agent.enabled = true;
+            agent.SetDestination(player.position);
         }
         else
         {
             // Moverse entre puntos (target1 y target2) si el jugador no está cerca
-            transform.position = Vector3.MoveTowards(transform.position, currentTarget.position, Speed * Time.deltaTime);
-
-            if (transform.position == currentTarget.position)
+            agent.enabled = false;
+            transform.position = Vector2.MoveTowards(transform.position, currentTarget.position, Speed * Time.deltaTime);
+            if (Vector2.Distance(transform.position, currentTarget.position) <= 0.5f)
             {
                 currentTarget = currentTarget == target1 ? target2 : target1;
             }
@@ -61,6 +54,21 @@ public class PenduloEnemigo : MonoBehaviour
             // Cambiar a la escena de Game Over
             SceneManager.LoadScene("MainMenu");
         }
+    }
+    bool PlayerIsNear()
+    {
+        // Detectar al jugador usando física 2D
+        Collider2D hit = Physics2D.OverlapCircle(transform.position, detectionRadius, playerLayer);
+        if (hit != null)
+        {
+            player = hit.transform;
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+        
     }
 
     void OnDrawGizmosSelected()
