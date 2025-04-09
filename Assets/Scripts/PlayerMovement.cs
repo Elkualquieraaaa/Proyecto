@@ -11,6 +11,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float radius;
     [SerializeField] float velocity;
     [SerializeField] float velocitY;
+    Animator animator;
     Rigidbody2D Rigidbody;
     SpriteRenderer spriteRenderer;
     float Hmovement;
@@ -19,10 +20,12 @@ public class PlayerMovement : MonoBehaviour
     Collider2D colider;
     Collider2D hideout;
     bool hide;
+    bool movementY;
     // Start is called before the first frame update
 
     void Start()
     {
+        animator = GetComponent<Animator>();
         Rigidbody = GetComponent<Rigidbody2D>();
         normalvelocity = velocity;
         spriteRenderer = GetComponent<SpriteRenderer>();
@@ -50,6 +53,18 @@ public class PlayerMovement : MonoBehaviour
     public void Move()
     {
         Rigidbody.velocity = new Vector2(Hmovement * Time.deltaTime, Vmovement * Time.deltaTime);
+        if (velocitY != 0)
+        {
+            movementY = true;
+            
+        }
+        else
+        {
+            movementY= false;
+        }
+
+        animator.SetBool("Inmovementy", movementY);
+        animator.SetFloat("VelocityY",velocitY);
     }
 
     public void Run()
