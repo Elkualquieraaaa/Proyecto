@@ -16,7 +16,6 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] Collider2D hideout;
     [SerializeField]bool hide;
     [SerializeField] LayerMask layerMask;
-    [SerializeField] LayerMask playermask;
     [SerializeField] GameObject player;
     [SerializeField] Collider2D colider;
     // Start is called before the first frame update
