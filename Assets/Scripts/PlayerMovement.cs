@@ -12,6 +12,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float radius;
     [SerializeField] float velocity;
     float normalvelocity;
+    Collider2D hideout;
     // Start is called before the first frame update
     void Start()
     {
@@ -22,7 +23,7 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Physics2D.OverlapCircle(PlayerDetector.position, radius);
+        hideout = Physics2D.OverlapCircle(PlayerDetector.position, radius);
 
         Hmovement = (Input.GetAxis("Horizontal") * velocity);
         Vmovement = (Input.GetAxis("Vertical") * velocity);
