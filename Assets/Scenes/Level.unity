@@ -2636,9 +2636,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5332266687949508797, guid: 56658692d8dfb7b4a9f5c1950118095a, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6718478788083466791, guid: 56658692d8dfb7b4a9f5c1950118095a, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6718478788083466791, guid: 56658692d8dfb7b4a9f5c1950118095a, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6718478788083466791, guid: 56658692d8dfb7b4a9f5c1950118095a, type: 3}
       propertyPath: m_TagString
@@ -4773,8 +4781,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1696373293}
     - target: {fileID: 2201280556318974937, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
+      propertyPath: detectionRadius
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 2201280556318974937, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
       propertyPath: playerLayer.m_Bits
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3678614718059013276, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
       propertyPath: target1
@@ -4785,8 +4797,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1376390329}
     - target: {fileID: 3678614718059013276, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
+      propertyPath: detectionRadius
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 3678614718059013276, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
       propertyPath: playerLayer.m_Bits
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4984528571848515103, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
       propertyPath: target1
@@ -4796,6 +4812,14 @@ PrefabInstance:
       propertyPath: target2
       value: 
       objectReference: {fileID: 1717036902}
+    - target: {fileID: 4984528571848515103, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
+      propertyPath: detectionRadius
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 4984528571848515103, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
+      propertyPath: playerLayer.m_Bits
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 7561699304203385261, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
       propertyPath: target1
       value: 
@@ -4805,8 +4829,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 652913587}
     - target: {fileID: 7561699304203385261, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
+      propertyPath: detectionRadius
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7561699304203385261, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
       propertyPath: playerLayer.m_Bits
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7584721034744727769, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
       propertyPath: target1
@@ -4817,8 +4845,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 276776270}
     - target: {fileID: 7584721034744727769, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
+      propertyPath: detectionRadius
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 7584721034744727769, guid: 26cf8a42a9095a849a8c410d5c7895e0, type: 3}
       propertyPath: playerLayer.m_Bits
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
