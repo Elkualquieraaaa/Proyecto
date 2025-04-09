@@ -29,7 +29,6 @@ public class PlayerMovement : MonoBehaviour
 
         Move();
         Run();
-        Hide();
     }
 
     public void Move()
@@ -48,20 +47,6 @@ public class PlayerMovement : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             velocity = normalvelocity;
-        }
-    }
-
-    public void Hide()
-    {
-        bool hidden = false;
-        bool hiddent = true;
-        if (Input.GetKeyDown(KeyCode.E))
-        {
-            gameObject.SetActive(false);
-        }
-        if(Input.GetKeyDown(KeyCode.Q))
-        {
-            gameObject.SetActive(true);
         }
     }
     private void OnDrawGizmos()
