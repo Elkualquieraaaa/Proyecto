@@ -14,20 +14,20 @@ public class PenduloEnemigo : MonoBehaviour
     public LayerMask playerLayer;
     private Transform player;
 
-    public string gameOverSceneName = "MainMenu";
+    public GameOverManager gameOverManager;
 
     NavMeshAgent agent;
     void Start()
     {
         currentTarget = target1;
         agent = GetComponent<NavMeshAgent>();
-          agent.updateRotation = false;
+        agent.updateRotation = false;
         agent.updateUpAxis = false;
     }
 
     void Update()
-    {   
-      
+    {
+
         // Movimiento del enemigo
         if (PlayerIsNear())
         {
@@ -52,7 +52,7 @@ public class PenduloEnemigo : MonoBehaviour
         if (collision.gameObject.CompareTag("Player"))
         {
             // Cambiar a la escena de Game Over
-            SceneManager.LoadScene("MainMenu");
+            gameOverManager.ShowGameOver();
         }
     }
     bool PlayerIsNear()
@@ -68,7 +68,7 @@ public class PenduloEnemigo : MonoBehaviour
         {
             return false;
         }
-        
+
     }
 
     void OnDrawGizmosSelected()
