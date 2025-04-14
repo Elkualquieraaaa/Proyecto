@@ -47,5 +47,11 @@ public class PauseManager : MonoBehaviour
         pausePanel.SetActive(false);
         settingsPausePanel.SetActive(true);
     }
+
+    public void BackPause()
+    {
+        pausePanel.SetActive(true);
+        settingsPausePanel.SetActive(false);
+    }
 }
 
