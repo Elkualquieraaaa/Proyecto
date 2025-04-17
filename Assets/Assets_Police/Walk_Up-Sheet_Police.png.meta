@@ -134,7 +134,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Walk_Up-Sheet_Police_0
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 17
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c949cdac7ddf30c43ba01ea306b1eaff
+      internalID: -1709086148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up-Sheet_Police_1
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 17
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2ddb6b4ea7b32d43977dc8a1d2f3e4b
+      internalID: 96794585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up-Sheet_Police_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 16
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5772af388e6af724fb0adb57d4631545
+      internalID: -777452289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up-Sheet_Police_3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 17
+        width: 22
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e4005be350aceb4cbaecd87303eb1e2
+      internalID: 311419436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up-Sheet_Police_4
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 17
+        width: 22
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bf073ff0008184439fff33895d6b676
+      internalID: 1925675777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Walk_Up-Sheet_Police_5
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 16
+        width: 22
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a586ed82277cd4e4aa00c47f91323e7a
+      internalID: -651579557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +271,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Walk_Up-Sheet_Police_0: -1709086148
+      Walk_Up-Sheet_Police_1: 96794585
+      Walk_Up-Sheet_Police_2: -777452289
+      Walk_Up-Sheet_Police_3: 311419436
+      Walk_Up-Sheet_Police_4: 1925675777
+      Walk_Up-Sheet_Police_5: -651579557
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

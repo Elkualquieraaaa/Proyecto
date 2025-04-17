@@ -134,7 +134,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Slice_Up-Sheet_Police_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 6
+        width: 22
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 246a99d23d536004cb5b19ad409cedc5
+      internalID: -1735404879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice_Up-Sheet_Police_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 6
+        width: 22
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71fef54fe8dc257429c9a2f3326861c1
+      internalID: -1048659212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice_Up-Sheet_Police_2
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 6
+        width: 22
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57448bd96458780478a2002acfef6764
+      internalID: -1668397664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice_Up-Sheet_Police_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 0
+        width: 38
+        height: 61
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67cbceb9fc1e4904e908783622e5a349
+      internalID: 1600871845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice_Up-Sheet_Police_4
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 16
+        width: 28
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8dca868c9c898f458818ef9b72e8c9c
+      internalID: -1494186447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice_Up-Sheet_Police_5
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 16
+        width: 23
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfb1e5957841d6042a358bcc1ceeaf5a
+      internalID: 268026709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice_Up-Sheet_Police_6
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 16
+        width: 28
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 321616bfa29cf0948998161db4b0129f
+      internalID: 1145794966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slice_Up-Sheet_Police_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 16
+        width: 27
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b93043a56401e24caf6aafd6d5498aa
+      internalID: -675709282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +313,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Slice_Up-Sheet_Police_0: -1735404879
+      Slice_Up-Sheet_Police_1: -1048659212
+      Slice_Up-Sheet_Police_2: -1668397664
+      Slice_Up-Sheet_Police_3: 1600871845
+      Slice_Up-Sheet_Police_4: -1494186447
+      Slice_Up-Sheet_Police_5: 268026709
+      Slice_Up-Sheet_Police_6: 1145794966
+      Slice_Up-Sheet_Police_7: -675709282
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

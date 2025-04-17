@@ -134,7 +134,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_Walk_Side_Police_0
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 240
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31cd23e32649af645921975e8d70117d
+      internalID: -1163799828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Walk_Side_Police_1
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 240
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d35687df81c3854eaba4adc08951b00
+      internalID: -1147820216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Walk_Side_Police_2
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 241
+        width: 24
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b67f818d99b1a4e9bc023f89096306
+      internalID: -1858636624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Walk_Side_Police_3
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 240
+        width: 23
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef67af4e37cb21f4c86877370bc9f284
+      internalID: -1406349367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Walk_Side_Police_4
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 240
+        width: 23
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ab3d51e63ecbb43977a7456dd40298
+      internalID: 965389432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Walk_Side_Police_5
+      rect:
+        serializedVersion: 2
+        x: 789
+        y: 240
+        width: 24
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30bca4874b3a40e4ca851d87270bc21c
+      internalID: -650062611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -145,7 +271,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Sprite_Walk_Side_Police_0: -1163799828
+      Sprite_Walk_Side_Police_1: -1147820216
+      Sprite_Walk_Side_Police_2: -1858636624
+      Sprite_Walk_Side_Police_3: -1406349367
+      Sprite_Walk_Side_Police_4: 965389432
+      Sprite_Walk_Side_Police_5: -650062611
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
