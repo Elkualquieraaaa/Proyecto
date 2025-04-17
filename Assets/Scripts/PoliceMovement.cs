@@ -14,6 +14,7 @@ public class PenduloEnemigo : MonoBehaviour
     public LayerMask playerLayer;
     private Transform player;
 
+
     public GameOverManager gameOverManager;
 
     NavMeshAgent agent;
@@ -23,6 +24,7 @@ public class PenduloEnemigo : MonoBehaviour
         agent = GetComponent<NavMeshAgent>();
         agent.updateRotation = false;
         agent.updateUpAxis = false;
+       
     }
 
     void Update()
@@ -34,6 +36,7 @@ public class PenduloEnemigo : MonoBehaviour
             // Seguir al jugador si está detectado
             agent.enabled = true;
             agent.SetDestination(player.position);
+
         }
         else
         {
