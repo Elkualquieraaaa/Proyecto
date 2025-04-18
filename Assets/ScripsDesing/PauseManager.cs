@@ -16,6 +16,7 @@ public class PauseManager : MonoBehaviour
 
     public void PauseGame()
     {
+        Time.timeScale = 0f;
         pausePanel.SetActive(true);
     }
 
