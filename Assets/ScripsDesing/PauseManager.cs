@@ -29,14 +29,14 @@ public class PauseManager : MonoBehaviour
     public void RestartGame()
     {
         Time.timeScale = 1f;
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name);
+        SceneManager.LoadScene("Level");
+
     }
 
     public void GoToMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene("MainMenu");
     }
 
     public void ExitGame()
