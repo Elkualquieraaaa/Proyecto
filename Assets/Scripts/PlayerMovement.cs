@@ -20,7 +20,9 @@ public class PlayerMovement : MonoBehaviour
     Collider2D colider;
     Collider2D hideout;
     bool hide;
+    bool movementX;
     bool movementY;
+    bool itsrun;
     // Start is called before the first frame update
 
     void Start()
@@ -44,6 +46,7 @@ public class PlayerMovement : MonoBehaviour
         {
             Move();
         }
+        Flip();
         Run();
         Hide();
 
@@ -56,13 +59,23 @@ public class PlayerMovement : MonoBehaviour
         if (velocitY != 0)
         {
             movementY = true;
+        }
+        else
+        {
+            movementY = false;
+        }
+        if (Rigidbody.velocity.x != 0)
+        {
+            movementX = true;
             
         }
         else
         {
-            movementY= false;
+            movementX= false;
         }
 
+        animator.SetBool("Isrun", itsrun);
+        animator.SetBool("Inmovementx", movementX);
         animator.SetBool("Inmovementy", movementY);
         animator.SetFloat("VelocityY",velocitY);
     }
@@ -73,11 +86,13 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.LeftShift))
         {
+            itsrun = true;
             velocity = newvelocity;
         }
         if (Input.GetKeyUp(KeyCode.LeftShift))
         {
             velocity = normalvelocity;
+            itsrun = false;
         }
     }
     public void Hide()
@@ -99,6 +114,13 @@ public class PlayerMovement : MonoBehaviour
             gameObject.layer = LayerMask.GetMask("TransparentFX");
             colider.enabled = true;
             Debug.Log(gameObject.layer);
+        }
+    }
+    public void Flip()
+    {
+        if (Hmovement > 0 && spriteRenderer.flipX == true || Hmovement < 0 && spriteRenderer.flipX == false)
+        {
+            spriteRenderer.flipX = !spriteRenderer.flipX;
         }
     }
     private void OnDrawGizmos()
