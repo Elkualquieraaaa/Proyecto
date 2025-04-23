@@ -42,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
 
         Hmovement = (Input.GetAxis("Horizontal") * velocity);
         Vmovement = (Input.GetAxis("Vertical") * velocity);
+
         if (hide != true)
         {
             Move();
